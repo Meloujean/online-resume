@@ -263,47 +263,47 @@ grid-template-columns: repeat(4 ,1fr);
 }
 @media only screen and (max-width: 1000px) {
     .container {
-        grid-template-columns: 1fr; /* Adjust grid to single column */
+        grid-template-columns: 1fr; 
     }
     .left-side,
     .right-side {
-        width: 100%; /* Make both sides take full width */
-        max-width: none; /* Remove max-width */
-        margin: 0; /* Remove margins */
-        padding: 20px; /* Add padding */
+        width: 100%;
+        max-width: none; 
+        margin: 0; 
+        padding: 20px; 
     }
     .right-side {
-        position: static; /* Remove absolute positioning */
+        position: static; 
     }
     .about .box1,
     .about .box2,
     .about .box3 {
-        flex-direction: column; /* Adjust boxes to stack vertically */
+        flex-direction: column; 
     }
     .about .box1 .year1,
     .about .box2 .year2,
     .about .box3 .year3 {
-        min-width: unset; /* Remove minimum width */
-        margin: 10px 0; /* Adjust margin */
+        min-width: unset; 
+        margin: 10px 0; 
     }
     .interest ul {
-        grid-template-columns: repeat(2, 1fr); /* Adjust grid to 2 columns */
+        grid-template-columns: repeat(2, 1fr); 
     }
 }
 
-/* Further adjustments for even smaller screens */
+
 @media only screen and (max-width: 600px) {
     .contact-info ul li {
-        flex-direction: column; /* Adjust contact info items to stack vertically */
-        align-items: flex-start; /* Align items to the start */
+        flex-direction: column; 
+        align-items: flex-start; 
     }
     .contact-info ul li i {
-        margin-bottom: 5px; /* Add spacing between icon and text */
+        margin-bottom: 5px; 
     }
     .about .title2 {
-        margin-top: 20px; /* Add spacing between titles and content */
+        margin-top: 20px; 
     }
     .about .title2 + p {
-        margin-top: 10px; /* Add spacing between title and paragraph */
+        margin-top: 10px; 
     }
 }
